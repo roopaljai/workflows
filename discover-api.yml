@@ -3,7 +3,7 @@ name: Sync Discovered API with APIConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: <host-name>
+  API_HOST: us-east-a.apiconnect.automation.ibm.com
   PLATFORM_API_PREFIX: <platform-api>
   PROVIDER_ORG: <porg-name>
   API_FILES: <file/files name>
